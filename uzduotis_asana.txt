@@ -1,0 +1,18 @@
+Sukurti paprastą naujienų svetainę.
+Funkcijos:
+Turi būti naujienos, kurios turi pavadinimą, datą, turinį (gali būti paprastas tekstas), kategorijas, komentarus.
+Kategorijos turi pavadinimą. Jos gali būti priskirtos naujienoms. Naujiena gali turėti kelias kategorijas.
+Komentarai turi el. pašto adresą ir turinį bei yra priskirti tam tikrai naujienai. Naujiena gali turėti daug komentarų.
+Puslapiai:
+Naujienos puslapis. Atvaizduojamas naujienos turinys, priskirtos kategorijos. Apačioje atvaizduojami komentarai, turi būti galimybė sukurti naują komentarą tai naujienai.
+Visų naujienų puslapis. Atvaizduojamos visos naujienos (pavadinimai, datos, priskirtos kategorijos) ir jų nuorodos į konkrečią naujieną.
+Naujienų sąrašas. Paprasta lentelė su sukurtom naujienom. Prie kiekvienos naujienos turi būti nuorodą į naujienos redagavimo puslapį ir naujienos trynimo mygtukas.
+Naujienos kūrimo puslapis. Forma į kurią reikia įvesti naujienos pavadinimą, turinį bei priskirti vieną ar daugiau kategorijų.
+Naujienos redagavimo puslapis. Forma, kurioje jau yra įvesti redaguojamos naujienos duomenys, juos galima pakeisti ir išsaugoti.
+Reikalavimai:
+Naujienos data turi pati atsinaujinti išsaugant įrašą.
+Įvesties formose (komentarų sukūrime, naujienos kūrime ir redagavime) turi būti validavimas (pavyzdžiui neleisti į el. pašto lauką įvesti telefono numerio).
+Privaloma sukurti migracijos failus, su kuriais būtų galima sukurti duomenų bazės lenteles.
+Kodas turi būti patalpintas git versijavimo sistemoje (pavyzdžiui Github.com)
+Kategorijų kūrimo puslapio nereikia, gali būti įrašyta tik duombazėje.
+Template gali būti paprastas html suformatuotas kodas.
